@@ -28,7 +28,7 @@ latency average = 148.898 ms
 initial connection time = 114.316 ms    
 tps = 604.439840 (without initial connection time)    
    ```
-**Рекомендованные настройки для текущей конфигурации аппаратного обеспечения**
+**Рекомендованные настройки для текущей конфигурации аппаратного обеспечения**    
 RAM 8 GB, CPU 4 core, SATA SSD
 [https://www.pgconfig.org/#/?max_connections=100&pg_version=16&environment_name=OLTP&total_ram=4&cpus=2&drive_type=SSD&arch=x86-64&os_type=linux]
 nano /var/lib/pgsql/data/postgresql.conf
@@ -68,6 +68,6 @@ initial connection time = 117.807 ms
 tps = 605.081035 (without initial connection time)
    ```
 **Выводы**    
-Изменение производительности в пределах погрешности.
-Настройки PostgreSQL по умолчанию не содержат откровенных несогласованостей.
-Для тестов нужно формировать скрипт файл соответсвующий реальному профилю нагрузки БД.
+Изменение производительности в пределах погрешности.    
+Настройки PostgreSQL по умолчанию не содержат откровенных несогласованостей.    
+Для тестов нужно формировать скрипт файл соответсвующий реальному профилю нагрузки БД.    
