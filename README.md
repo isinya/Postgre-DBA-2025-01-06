@@ -20,7 +20,7 @@ apt-get install postgresql15-contrib
    ```
 
 Производительность с настройками по умолчанию    
-pgbench  -U postgres -s 100  -c 90 -j 4 -T 15 -d postgres
+> pgbench  -U postgres -s 100  -c 90 -j 4 -T 15 -d postgres    
    ```sh
 number of transactions actually processed: 9110    
 number of failed transactions: 0 (0.000%)    
