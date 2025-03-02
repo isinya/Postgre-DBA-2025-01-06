@@ -30,7 +30,7 @@ tps = 604.439840 (without initial connection time)
    ```
 **Рекомендовыанные настройки для актуальной конфигурации аппаратного обеспечения**
 RAM 8 GB, CPU 4 core, SATA SSD
-[[https://www.pgconfig.org/#/?max_connections=100&pg_version=15&environment_name=OLTP&total_ram=8&cpus=4&drive_type=SSD&arch=x86-64&os_type=linux](https://www.pgconfig.org/#/?max_connections=100&pg_version=16&environment_name=OLTP&total_ram=4&cpus=2&drive_type=SSD&arch=x86-64&os_type=linux)]
+[https://www.pgconfig.org/#/?max_connections=100&pg_version=16&environment_name=OLTP&total_ram=4&cpus=2&drive_type=SSD&arch=x86-64&os_type=linux]
 nano /var/lib/pgsql/data/postgresql.conf
    ```sh
 Memory Configuration
