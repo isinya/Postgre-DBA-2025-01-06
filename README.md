@@ -14,13 +14,13 @@ systemctl enable postgresql.service
 systemctl start postgresql.service
    ```
 
-Установка PGBench
+>Установка PGBench
    ```sh
 apt-get install postgresql15-contrib    
    ```
 
-Производительность с настройками по умолчанию
-pgbench  -U postgres -s 100  -c 90 -j 4 -T 15 -d postgres
+>Производительность с настройками по умолчанию    
+>pgbench  -U postgres -s 100  -c 90 -j 4 -T 15 -d postgres
    ```sh
 number of transactions actually processed: 9110    
 number of failed transactions: 0 (0.000%)    
@@ -28,8 +28,8 @@ latency average = 148.898 ms
 initial connection time = 114.316 ms    
 tps = __604.439840__ (without initial connection time)    
    ```
-# Рекомендовыанные настройки для актуальной конфигураци аппаратного обеспечения
-# RAM 8 GB, CPU 4 core, SATA SSD
+>Рекомендовыанные настройки для актуальной конфигураци аппаратного обеспечения
+>**RAM 8 GB, CPU 4 core, SATA SSD**
 https://www.pgconfig.org/#/?max_connections=100&pg_version=15&environment_name=OLTP&total_ram=8&cpus=4&drive_type=SSD&arch=x86-64&os_type=linux
 nano /var/lib/pgsql/data/postgresql.conf
 
