@@ -26,7 +26,7 @@ number of transactions actually processed: 9110
 number of failed transactions: 0 (0.000%)    
 latency average = 148.898 ms    
 initial connection time = 114.316 ms    
-tps = **604.439840** (without initial connection time)    
+tps = __604.439840__ (without initial connection time)    
    ```
 # Рекомендовыанные настройки для актуальной конфигураци аппаратного обеспечения
 # RAM 8 GB, CPU 4 core, SATA SSD
