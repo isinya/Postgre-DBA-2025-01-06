@@ -6,7 +6,7 @@
 развернуть виртуальную машину любым удобным способом
 поставить на неё PostgreSQL 15 любым способом
 
-# Установка PostgreSQL 15 AltLinux
+> Установка PostgreSQL 15 AltLinux
 apt-get install postgresql15-server postgresql15-server-devel    
 /etc/init.d/postgresql initdb    
 systemctl enable postgresql.service    
