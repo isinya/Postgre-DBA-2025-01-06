@@ -58,11 +58,12 @@ max_worker_processes = 8
 max_parallel_workers_per_gather = 2
 max_parallel_workers = 2
    ```
-**Производительность с рекомендованными настройками**
+**Производительность с рекомендованными настройками**    
 pgbench -U postgres -s 100 -c 90 -j 4 -T 15 -d postgres
-
+   ```sh
 number of transactions actually processed: 9118
 number of failed transactions: 0 (0.000%)
 latency average = 148.740 ms
 initial connection time = 117.807 ms
 tps = 605.081035 (without initial connection time)
+   ```
