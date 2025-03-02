@@ -7,13 +7,13 @@
 поставить на неё PostgreSQL 15 любым способом
 
 # Установка PostgreSQL 15 AltLinux
-apt-get install postgresql15-server postgresql15-server-devel
-/etc/init.d/postgresql initdb
-systemctl enable postgresql.service
-systemctl start postgresql.service
+apt-get install postgresql15-server postgresql15-server-devel    
+/etc/init.d/postgresql initdb    
+systemctl enable postgresql.service    
+systemctl start postgresql.service    
 
 # Установка PGBench
-apt-get install postgresql15-contrib
+apt-get install postgresql15-contrib    
 
 
 Производительность с настройками по умолчанию
